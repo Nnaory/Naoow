@@ -1,0 +1,72 @@
+/* Gaya default untuk seluruh body */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif; /* Menggunakan Montserrat */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Judul utama (misalnya <h1>) pakai font Montserrat Bold */
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+/* Navigasi */
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* Sub-judul (misalnya <h2>) pakai Montserrat + warna cerah */
+.intro h2 {
+    color: #00e0e0;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* Teks biasa atau paragraf */
+.intro p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Highlight teks */
+.intro .highlight {
+    color: #00e0e0;
+    border-bottom: 2px solid #00e0e0;
+    font-weight: 700;
+}
+
+/* Quote (pakai Lora untuk efek elegan) */
+.quote p {
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Lora', serif; /* Menggunakan Lora */
+    font-style: italic;
+}
+
+/* Section title */
+.section-title {
+    font-size: 24px;
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* Footer */
+.footer {
+    margin: 40px 0;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
